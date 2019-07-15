@@ -18,3 +18,6 @@ Getting started:
 7. See the magic. :)
 
 To view the recording go to Window -> ReplayVR -> Scenario recordings and select the scenario and object you recoreded. The window will output all actions and the corresponding indexes.
+
+## Video
+[![ReplayVR Is AWESOME](https://img.youtube.com/vi/8i3rRpSFl-4/0.jpg)](https://www.youtube.com/watch?v=8i3rRpSFl-4 "ReplayVR Is AWESOME")
