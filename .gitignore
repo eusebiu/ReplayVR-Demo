@@ -5,6 +5,7 @@
 [Bb]uilds/
 [Oo]bj/
 Assets/AssetStoreTools*
+Assets/Plugins/Replay*
 
 # Visual Studio cache directory
 .vs/
