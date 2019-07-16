@@ -1,7 +1,5 @@
-﻿#if UNITY_EDITOR
-using ReplayVR.Core;
+﻿using ReplayVR.Core;
 using ReplayVR.Models;
-#endif
 using UnityEngine;
 using UnityEngine.UI;
 
