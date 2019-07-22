@@ -3,7 +3,6 @@ using ReplayVR.Models;
 using UnityEngine;
 using UnityEngine.UI;
 
-#if UNITY_EDITOR
 public class When_Typing_Text_Test : AssertBehaviour
 {
 	new void Awake()
@@ -21,14 +20,19 @@ public class When_Typing_Text_Test : AssertBehaviour
 		base.Update();
 	}
 
-	protected override void HandleCurrentState(StateArgs e)
+	protected override void HandleCurrentState(object sender, StateArgs e)
 	{
-		if (e.States[0] is ActionState actionState && actionState.Action == action && e.StateIndex == Index)
+		if (sender is Component controller)
 		{
-			Assert(
-				GameObject.Find("ExampleWorldObjects/WorldKeyboard/Input").GetComponent<InputField>().text == "REPLAYVR",
-				"Test failed! :(", "Test success! :)");
+			if (controller.name == "Controller (right)" || controller.name == "RightHand") // check if the coresponding object has the correct state
+			{
+				if (e.States[0] is ActionState actionState && actionState.Action == action && e.StateIndex == Index)
+				{
+					Assert(
+						GameObject.Find("ExampleWorldObjects/WorldKeyboard/Input").GetComponent<InputField>().text == "REPLAYVR",
+						"Test failed! :(", "Test success! :)");
+				}
+			}
 		}
 	}
 }
-#endif
