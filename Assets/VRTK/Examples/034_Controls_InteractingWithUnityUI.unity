@@ -18991,7 +18991,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1914805072
 Transform:
   m_ObjectHideFlags: 0
@@ -19018,7 +19018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47f552442ac04a41bb278185fdaf8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenarioName: TypeReplayVR
+  ScenarioName: TypeReplayVRSim
   CanExecute: 1
   runners:
   - {fileID: 917057766}
