@@ -19,7 +19,7 @@ Getting started:
 
 To view the recording go to Window -> ReplayVR -> Scenario recordings and select the scenario and object you recoreded. The window will output all actions and the corresponding indexes.
 
-## Troubleshoting
+## Troublesh0oting
 Set ReplayVR.dll available for all platforms and ReplayVR.Editor.dll only for Editor platform.
 
 ## Video
