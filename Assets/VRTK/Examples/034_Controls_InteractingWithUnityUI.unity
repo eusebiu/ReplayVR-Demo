@@ -3671,6 +3671,8 @@ MonoBehaviour:
   CanRecord: 0
   recorders:
   - {fileID: 917057765}
+  - {fileID: 1960333648}
+  - {fileID: 1600318770}
 --- !u!1 &336747002
 GameObject:
   m_ObjectHideFlags: 0
@@ -7832,7 +7834,7 @@ MonoBehaviour:
   m_Script: {fileID: -1650291876, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ApplyTransformOnParent: 1
+  ApplyTransformOnParent: 0
 --- !u!1 &925719669
 GameObject:
   m_ObjectHideFlags: 0
@@ -15641,6 +15643,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598354948}
   m_CullTransparentMesh: 0
+--- !u!1 &1600318768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1537013185507012, guid: 41c0760bd81dd084283814f0c432b466,
+    type: 3}
+  m_PrefabInstance: {fileID: 1107519339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1600318769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600318768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -656379596, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyTransformOnParent: 1
+--- !u!114 &1600318770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600318768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1645992567, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1603021548
 GameObject:
   m_ObjectHideFlags: 0
@@ -16927,11 +16960,11 @@ MonoBehaviour:
   autoManageVRSettings: 1
   autoLoadSetup: 1
   setups:
+  - {fileID: 1107519340}
   - {fileID: 1107519342}
   - {fileID: 1107519345}
   - {fileID: 1107519344}
   - {fileID: 1107519343}
-  - {fileID: 1107519340}
 --- !u!4 &1781418447
 Transform:
   m_ObjectHideFlags: 0
@@ -18953,12 +18986,12 @@ GameObject:
   - component: {fileID: 1914805072}
   - component: {fileID: 1914805073}
   m_Layer: 0
-  m_Name: AssertsSim
+  m_Name: TypeReplayVRSimTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1914805072
 Transform:
   m_ObjectHideFlags: 0
@@ -18980,15 +19013,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914805071}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e47f552442ac04a41bb278185fdaf8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScenarioName: TypeReplayVR
-  CanExecute: 0
+  CanExecute: 1
   runners:
   - {fileID: 917057766}
+  - {fileID: 1960333650}
+  - {fileID: 1600318769}
   action: 21
   Index: 44
 --- !u!1 &1933670538
@@ -19344,6 +19379,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957438150}
   m_CullTransparentMesh: 0
+--- !u!1 &1960333646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1674857996131884, guid: 41c0760bd81dd084283814f0c432b466,
+    type: 3}
+  m_PrefabInstance: {fileID: 1107519339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1960333648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960333646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1960333650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960333646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1650291876, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyTransformOnParent: 0
 --- !u!1 &1993247951
 GameObject:
   m_ObjectHideFlags: 0
