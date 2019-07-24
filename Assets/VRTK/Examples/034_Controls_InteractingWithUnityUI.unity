@@ -16960,11 +16960,11 @@ MonoBehaviour:
   autoManageVRSettings: 1
   autoLoadSetup: 1
   setups:
-  - {fileID: 1107519340}
   - {fileID: 1107519342}
   - {fileID: 1107519345}
   - {fileID: 1107519344}
   - {fileID: 1107519343}
+  - {fileID: 1107519340}
 --- !u!4 &1781418447
 Transform:
   m_ObjectHideFlags: 0
@@ -19505,7 +19505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1995278967
 Transform:
   m_ObjectHideFlags: 0
@@ -19539,7 +19539,7 @@ MonoBehaviour:
   - {fileID: 661982262}
   - {fileID: 498101565}
   action: 21
-  Index: 44
+  Index: 37
 --- !u!1 &2004425203
 GameObject:
   m_ObjectHideFlags: 0
