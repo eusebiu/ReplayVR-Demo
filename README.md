@@ -1,5 +1,5 @@
 # ReplayVR-Demo
-Demo project for Replay for Unity (VR) - A (VR) testing framework for Unity. Currently is focused on VR.
+Demo project for Replay for Unity - A VR testing framework for Unity.
 
 Supports:
 - VRTK 3.2.1, 3.3.0
