@@ -9,7 +9,7 @@ Supports:
 The project demo comes with both VRTK and SteamVR (versions supported above).
 
 Getting started:
-1. Get the ReplayVR asset from Unity Asset Store and put it inside a Plugins folder and set platforms for the libraries (ReplayVR.dll for all platforms, ReplayVR.Editor.dll only for Editor).
+1. Get the ReplayVR asset from Unity Asset Store (https://assetstore.unity.com/packages/tools/gui/replayvr-150493) and put it inside a Plugins folder and set platforms for the libraries (ReplayVR.dll for all platforms, ReplayVR.Editor.dll only for Editor).
 2. Add VRTK ReplayVR components to Controllers and Camera using Add Component in UnityEditor (see ReplayVR section); for camera you also need to add Tracked Pose Driver from XR Legacy Input Helpers.
 3. Create a Tests/Recorder game objects and assign it the ScenarioRecorder component from ReplayVR; enter a scenario name and enter the recorders (controllers and camera).
 4. Play the app.
