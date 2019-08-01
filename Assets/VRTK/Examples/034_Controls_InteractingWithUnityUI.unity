@@ -8255,6 +8255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 948450285}
+  - component: {fileID: 948450286}
   m_Layer: 0
   m_Name: Tests
   m_TagString: Untagged
@@ -8280,6 +8281,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &948450286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948450284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29db5e3ae63db824195850198837a092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &958901224
 GameObject:
   m_ObjectHideFlags: 0
@@ -19021,9 +19034,9 @@ MonoBehaviour:
   ScenarioName: TypeReplayVRSim
   CanExecute: 1
   runners:
-  - {fileID: 917057766}
-  - {fileID: 1960333650}
-  - {fileID: 1600318769}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   action: 21
   Index: 44
 --- !u!1 &1933670538
@@ -19535,9 +19548,9 @@ MonoBehaviour:
   ScenarioName: TypeReplayVR
   CanExecute: 1
   runners:
-  - {fileID: 185138439}
-  - {fileID: 661982262}
-  - {fileID: 498101565}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   action: 21
   Index: 37
 --- !u!1 &2004425203
