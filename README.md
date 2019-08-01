@@ -24,6 +24,15 @@ Getting started:
 
 To view the recording go to Window -> ReplayVR -> Scenario recordings and select the scenario and object you recoreded. The window will output all actions and the corresponding indexes.
 
+Running a test at runtime (can be used in CI environments):
+1. Add the RuntimeTestRunner from ReplayVR.Scripts to the root TestObject (provided by the asset)
+2. Build the app for Standalone player
+3. Run the command from Command Prompt "start /wait <app>.exe replayTestObject:Unity_test_object & echo %errorlevel%" => you should see 0 if test is successful, -1 if not.
+
+Remarks:
+a. Unity_test_object is the name of the object in Unity that has the AssertBehaviour component attached to it.
+b. For other platforms, see the corresponding commands to start and app and get it's exit code.
+
 ## Troublesh0oting
 Set ReplayVR.dll available for all platforms and ReplayVR.Editor.dll only for Editor platform.
 
