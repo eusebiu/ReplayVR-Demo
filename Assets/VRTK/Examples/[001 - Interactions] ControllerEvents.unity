@@ -532,6 +532,8 @@ GameObject:
   m_Component:
   - component: {fileID: 109582312}
   - component: {fileID: 109582313}
+  - component: {fileID: 109582314}
+  - component: {fileID: 109582315}
   m_Layer: 0
   m_Name: RightControllerScriptAlias
   m_TagString: Untagged
@@ -603,6 +605,31 @@ MonoBehaviour:
   gripSenseAxisChanged: 0
   gripSensePressed: 0
   controllerVisible: 1
+--- !u!114 &109582314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109582311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &109582315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109582311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1650291876, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyTransformOnParent: 1
 --- !u!1 &129575846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,11 +2690,11 @@ MonoBehaviour:
   m_Script: {fileID: 613150144, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenarioName: TestVRTK330
+  ScenarioName: TestVRTK330New
   CanRecord: 0
   recorders:
-  - {fileID: 1406599107}
-  - {fileID: 1406599105}
+  - {fileID: 1408711852}
+  - {fileID: 109582314}
   - {fileID: 1406599116}
 --- !u!1 &940287754
 GameObject:
@@ -3279,7 +3306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1028054046
 Transform:
   m_ObjectHideFlags: 0
@@ -3306,11 +3333,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47f552442ac04a41bb278185fdaf8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenarioName: TestVRTK330
+  ScenarioName: TestVRTK330New
   CanExecute: 1
   runners:
-  - {fileID: 1406599121}
-  - {fileID: 1406599120}
+  - {fileID: 1408711851}
+  - {fileID: 109582315}
   - {fileID: 1406599099}
   action: 0
   Index: 1111
@@ -4793,30 +4820,6 @@ MonoBehaviour:
   _head: {fileID: 1349137713}
   _ears: {fileID: 615100491}
   wireframe: 0
---- !u!114 &1406599105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406599095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1406599107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406599097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1406599115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4847,32 +4850,6 @@ MonoBehaviour:
   m_Script: {fileID: -1645992567, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1406599120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406599095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1650291876, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ApplyTransformOnParent: 1
---- !u!114 &1406599121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406599097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1650291876, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ApplyTransformOnParent: 1
 --- !u!1 &1408711848
 GameObject:
   m_ObjectHideFlags: 0
@@ -4883,6 +4860,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1408711849}
   - component: {fileID: 1408711850}
+  - component: {fileID: 1408711852}
+  - component: {fileID: 1408711851}
   m_Layer: 0
   m_Name: LeftControllerScriptAlias
   m_TagString: Untagged
@@ -4954,6 +4933,31 @@ MonoBehaviour:
   gripSenseAxisChanged: 0
   gripSensePressed: 0
   controllerVisible: 1
+--- !u!114 &1408711851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408711848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1650291876, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyTransformOnParent: 1
+--- !u!114 &1408711852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408711848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1438938390
 GameObject:
   m_ObjectHideFlags: 0
