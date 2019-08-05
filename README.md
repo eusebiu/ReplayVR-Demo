@@ -4,8 +4,9 @@ Demo project for Replay for Unity - A VR testing framework for Unity.
 Tested on:
 - VRTK 3.2.1, 3.3.0
 - SteamVR 1.2.3
-- HTC Vive, VRTK Simulator (also tested recording on HTC Vive and played on simulator)
-(Oculus support is comming)
+- HTC Vive, VRTK Simulator (also tested recording on HTC Vive and played on simulator) p(Oculus support is comming)
+
+Currently, the recording is supported only in Unity Editor.
 
 # Instructions
 The project demo comes with both VRTK and SteamVR (versions supported above).
