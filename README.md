@@ -26,12 +26,12 @@ Getting started:
 12. See the app flow replayed
 
 SteamVR:
-- Controllers - see Controller (left) and Controller (right) objects
+- Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects
 - Camera - see Camera (eye) object
 
 Oculus (untested):
-- Controllers - RightHandAnchor/controller_right, LeftHandAnchor/controller_left
-- Camear - CenterEyeAnchor
+- Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects
+- Camera - see CenterEyeAnchor
 
 To view the recording go to Window -> ReplayVR -> Scenario recordings and select the scenario and object you recoreded. The window will output all actions and the corresponding indexes.
 
