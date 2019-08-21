@@ -23,7 +23,9 @@ Getting started:
 9. Set the conditions to the assert component.
 10. Enable "Can execute" of the assert component.
 11. Restart the app.
-12. See the app flow replayed
+12. See the app flow replayed.
+
+If you want to change the record/replay functions, choose Execution method on both recorder and runner: Update, FixedUpdate, LateUpdate.
 
 SteamVR:
 - Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects (see [VRTK_Scripts])

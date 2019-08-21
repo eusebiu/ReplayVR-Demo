@@ -3946,8 +3946,8 @@ MonoBehaviour:
   m_Script: {fileID: 613150144, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenarioName: TypeReplayVR
-  CanRecord: 0
+  ScenarioName: TypeReplayVRFixed
+  CanRecord: 1
   recorders:
   - {fileID: 734900878}
   - {fileID: 1933670547}
@@ -4485,6 +4485,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ApplyTransformOnParent: 0
+  RunOnUpdate: 0
+  RunOnFixedUpdate: 1
+  RunOnLateUpdate: 0
 --- !u!114 &498101566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4497,6 +4500,9 @@ MonoBehaviour:
   m_Script: {fileID: -1645992567, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RecordOnUpdate: 0
+  RecordOnFixedUpdate: 1
+  RecordOnLateUpdate: 0
 --- !u!114 &498101567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6169,6 +6175,9 @@ MonoBehaviour:
   m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RecordOnUpdate: 0
+  RecordOnFixedUpdate: 1
+  RecordOnLateUpdate: 0
 --- !u!114 &734900879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6182,6 +6191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ApplyTransformOnParent: 1
+  RunOnUpdate: 0
+  RunOnFixedUpdate: 1
+  RunOnLateUpdate: 0
 --- !u!1 &748828080
 GameObject:
   m_ObjectHideFlags: 0
@@ -10477,6 +10489,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ApplyTransformOnParent: 0
+  RunOnUpdate: 1
+  RunOnFixedUpdate: 0
+  RunOnLateUpdate: 0
 --- !u!114 &1107519353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10489,6 +10504,9 @@ MonoBehaviour:
   m_Script: {fileID: -1645992567, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RecordOnUpdate: 1
+  RecordOnFixedUpdate: 0
+  RecordOnLateUpdate: 0
 --- !u!114 &1107519354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11589,7 +11607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1239361660
 Transform:
   m_ObjectHideFlags: 0
@@ -11617,7 +11635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScenarioName: OculusTypeReplayVR
-  CanRecord: 0
+  CanRecord: 1
   recorders:
   - {fileID: 734900878}
   - {fileID: 1933670547}
@@ -12692,7 +12710,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScenarioName: OculusTypeReplayVR
-  CanExecute: 1
   runners:
   - {fileID: 734900879}
   - {fileID: 1933670543}
@@ -15830,6 +15847,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ApplyTransformOnParent: 1
+  RunOnUpdate: 1
+  RunOnFixedUpdate: 0
+  RunOnLateUpdate: 0
 --- !u!114 &1600318770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15842,6 +15862,9 @@ MonoBehaviour:
   m_Script: {fileID: -1645992567, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RecordOnUpdate: 1
+  RecordOnFixedUpdate: 0
+  RecordOnLateUpdate: 0
 --- !u!1 &1603021548
 GameObject:
   m_ObjectHideFlags: 0
@@ -17133,8 +17156,8 @@ MonoBehaviour:
   autoManageVRSettings: 1
   autoLoadSetup: 1
   setups:
-  - {fileID: 1107519344}
   - {fileID: 1107519342}
+  - {fileID: 1107519344}
   - {fileID: 1107519345}
   - {fileID: 1107519343}
   - {fileID: 1107519340}
@@ -19200,7 +19223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScenarioName: TypeReplayVR
-  CanExecute: 1
   runners:
   - {fileID: 734900879}
   - {fileID: 1933670543}
@@ -19331,6 +19353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ApplyTransformOnParent: 1
+  RunOnUpdate: 0
+  RunOnFixedUpdate: 1
+  RunOnLateUpdate: 0
 --- !u!114 &1933670544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19434,6 +19459,9 @@ MonoBehaviour:
   m_Script: {fileID: 425883100, guid: 16c872c101754cc44a3248f32e51a32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RecordOnUpdate: 0
+  RecordOnFixedUpdate: 1
+  RecordOnLateUpdate: 0
 --- !u!1 &1955424691
 GameObject:
   m_ObjectHideFlags: 0
@@ -19683,7 +19711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1995278967
 Transform:
   m_ObjectHideFlags: 0
@@ -19710,8 +19738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47f552442ac04a41bb278185fdaf8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenarioName: TypeReplayVR
-  CanExecute: 1
+  ScenarioName: TypeReplayVRFixed
   runners:
   - {fileID: 734900879}
   - {fileID: 1933670543}

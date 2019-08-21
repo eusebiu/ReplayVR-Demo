@@ -14,12 +14,6 @@ public class When_Typing_Text_Test : AssertBehaviour
 		base.Start();  
     }
 
-	// Update is called once per frame
-	new void Update()
-    {
-		base.Update();
-	}
-
 	protected override void HandleCurrentState(object sender, StateArgs e)
 	{
 		if (sender is Component controller)
