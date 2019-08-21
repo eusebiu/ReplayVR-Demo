@@ -12,11 +12,11 @@ namespace ReplayVR.Scripts
 			var testObjectName = SystemUtils.GetArgument("replayTestObject:", true);
 
 			if (string.IsNullOrEmpty(testObjectName))
-#if DEBUG
-				testObjectName = "TypeReplayVRTest";
-#else
+//#if DEBUG
+//				testObjectName = "TypeReplayVRTest";
+//#else
 				return;
-#endif
+//#endif
 			testObjectName = testObjectName.Replace("replayTestObject:", string.Empty);
 
 			var testObject = transform.Find(testObjectName);

@@ -24,7 +24,8 @@ public class When_Typing_Text_Test : AssertBehaviour
 	{
 		if (sender is Component controller)
 		{
-			if (controller.name == "Controller (right)" || controller.name == "RightHand") // check if the coresponding object has the correct state
+			if (controller.name == "Controller (right)" || controller.name == "RightHand" || 
+				controller.name == "RightHandAnchor" || controller.name == "RightController") // check if the coresponding object has the correct state
 			{
 				if (e.States[0] is ActionState actionState && actionState.Action == action && e.StateIndex == Index)
 				{

@@ -13,7 +13,7 @@ The project demo comes with both VRTK and SteamVR (versions supported above).
 
 Getting started:
 1. Get the ReplayVR asset from Unity Asset Store (https://assetstore.unity.com/packages/tools/gui/replayvr-150493) and put it inside a Plugins folder and set platforms for the libraries (ReplayVR.dll for all platforms, ReplayVR.Editor.dll only for Editor).
-2. Add VRTK ReplayVR components to Controllers and Camera using Add Component in UnityEditor (see ReplayVR section); for camera you also need to add Tracked Pose Driver from XR Legacy Input Helpers.
+2. Add VRTK ReplayVR components to Controllers and Camera using Add Component in UnityEditor (see ReplayVR section); for camera you also need to add Tracked Pose Driver from XR Legacy Input Helpers (see Package Manager under Window).
 3. Create a Tests/Recorder game objects and assign it the ScenarioRecorder component from ReplayVR; enter a scenario name and enter the recorders (controllers and camera).
 4. Play the app.
 5. Enable "Can record" from Tests/Recorder object.
@@ -26,12 +26,12 @@ Getting started:
 12. See the app flow replayed
 
 SteamVR:
-- Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects
-- Camera - see Camera (eye) object
+- Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects (see [VRTK_Scripts])
+- Camera - see Camera (eye) under [VRTK_SDKManager]-SteamVR
 
 Oculus (untested):
-- Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects
-- Camera - see CenterEyeAnchor
+- Controllers - see LeftController(ScriptAlias)/RightController(ScriptAlias) VRTK objects (see [VRTK_Scripts])
+- Camera - see CenterEyeAnchor under [VRTK_SDKManager]-Oculus(VR)
 
 To view the recording go to Window -> ReplayVR -> Scenario recordings and select the scenario and object you recoreded. The window will output all actions and the corresponding indexes.
 
